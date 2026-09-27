@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101116">
+  <meta name="description" content="Портфолио разработчика: Telegram-боты, Mini Apps, сайты и автоматизация. Проект ГигаПульс. Заказы от 300 ₽.">
+  <title>Портфолио разработчика — боты, Mini Apps и сайты</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231b1d25'/%3E%3Cpath d='M32 8l5.5 18.5L56 32l-18.5 5.5L32 56l-5.5-18.5L8 32l18.5-5.5z' fill='%238cabff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./services.css">
+</head>
+<body>
+  <canvas id="pointer-stars" aria-hidden="true"></canvas>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="В начало">
+        <span class="brand-mark" aria-hidden="true">✳</span>
+        <span>Портфолио<span class="brand-dot">.</span></span>
+      </a>
+      <nav aria-label="Разделы сайта">
+        <a href="#project">Мой проект</a>
+        <a href="#services">Что делаю</a>
+        <a class="nav-order" href="#order">Заказать бота <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-mark" aria-hidden="true"></span> Портфолио / Разработка ботов</p>
+          <h1 id="hero-title">Делаю ботов<br><em>под вашу идею.</em></h1>
+          <p class="hero-lead">Разрабатываю Telegram-ботов, Mini Apps, сайты и автоматизацию. Один из моих проектов — игровой бот ГигаПульс.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#project">Посмотреть проект <span aria-hidden="true">↓</span></a>
+            <a class="button button-outline" href="#order">Заказать бота</a>
+          </div>
+          <div class="hero-foot"><span class="line"></span> 01 проект в портфолио · Живой бот</div>
+        </div>
+        <div class="hero-visual" aria-label="Экран игры ГигаПульс">
+          <div class="visual-grid" aria-hidden="true"></div>
+          <div class="visual-glow" aria-hidden="true"></div>
+          <div class="phone">
+            <div class="phone-screen"><img src="./assets/app-home.png" alt="Экран ГигаПульса: баланс, сбор трафика и ежедневные задания" width="390" height="1560"></div>
+          </div>
+          <div class="visual-caption">ПРОЕКТ 01 / ГИГАПУЛЬС <span>TELEGRAM MINI APP</span></div>
+        </div>
+      </section>
+
+      <section class="project-intro" id="project" aria-labelledby="project-title">
+        <div class="section-index">01 / МОЙ ПРОЕКТ</div>
+        <div>
+          <h2 id="project-title">ГигаПульс.<br><span>Игра внутри Telegram.</span></h2>
+          <p>ГигаПульс объединяет Telegram-бота и Mini App. Игроку удобно зайти на минуту за попыткой сбора или остаться подольше ради игр и заданий. Интерфейс работает прямо в Telegram.</p>
+        </div>
+        <a class="text-link" href="https://t.me/GigaPulsePlayBot" target="_blank" rel="noopener noreferrer">Открыть проект <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section class="features" id="features" aria-labelledby="features-title">
+        <div class="section-head"><div class="section-index">02 / ГИГАПУЛЬС</div><h2 id="features-title">Что я реализовал</h2></div>
+        <div class="feature-grid">
+          <article class="feature-card"><span class="feature-number">01</span><div class="feature-icon" aria-hidden="true">◉</div><h3>Игровая экономика</h3><p>Сбор трафика каждый час, уровни связи, переводы и таблицы лидеров.</p></article>
+          <article class="feature-card"><span class="feature-number">02</span><div class="feature-icon" aria-hidden="true">✦</div><h3>Задания и игры</h3><p>Три ежедневных задания, бесплатные аркады и игры с игровыми ставками.</p></article>
+          <article class="feature-card"><span class="feature-number">03</span><div class="feature-icon" aria-hidden="true">⌁</div><h3>Свой стиль</h3><p>Выбор оператора и цвета интерфейса. Промокоды и VIP дополняют игру.</p></article>
+        </div>
+        <p class="currency-note">Гигабайты в ГигаПульсе — игровая валюта, а не мобильный интернет.</p>
+      </section>
+
+      <section class="services" id="services" aria-labelledby="services-title">
+        <div class="section-index">03 / УСЛУГИ</div>
+        <div class="services-heading"><h2 id="services-title">Что делаю</h2><p>Расскажи, что нужно. По задаче скажу цену и сроки.</p></div>
+        <div class="service-grid">
+          <article class="service-card"><span>01 /</span><h3>Telegram-боты</h3><p>Чат-боты, каталоги, игровые механики, сбор заявок и автоматизация.</p></article>
+          <article class="service-card"><span>02 /</span><h3>Mini Apps</h3><p>Веб-интерфейс внутри Telegram: экраны, формы и взаимодействие с ботом.</p></article>
+          <article class="service-card"><span>03 /</span><h3>Сайты и сервисы</h3><p>Лендинги, портфолио и веб-приложения с адаптацией под телефон.</p></article>
+          <article class="service-card"><span>04 /</span><h3>Автоматизация</h3><p>Скрипты, обработка данных и интеграции между сервисами.</p></article>
+        </div>
+        <div class="existing-project"><p><strong>Уже есть проект?</strong> Исправлю ошибки, доработаю функционал. Десктопные программы тоже можно обсудить.</p><a href="https://t.me/Suppor712" target="_blank" rel="noopener noreferrer">Расскажи о задаче <span aria-hidden="true">↗</span></a></div>
+      </section>
+
+      <section class="stack" id="stack" aria-labelledby="stack-title">
+        <div class="section-index">04 / ТЕХНОЛОГИИ</div>
+        <h2 id="stack-title">Стек</h2>
+        <div class="stack-grid">
+          <div><h3>Языки</h3><p>Python · JavaScript · TypeScript · Go · SQL · Bash</p></div>
+          <div><h3>Боты и веб</h3><p>Aiogram · FastAPI · Django · Node.js · React · HTML · CSS</p></div>
+          <div><h3>Данные и запуск</h3><p>PostgreSQL · SQLite · Redis · Docker · Git · Linux · Nginx</p></div>
+        </div>
+      </section>
+
+      <section class="order" id="order" aria-labelledby="order-title">
+        <div class="order-top"><span class="section-index">05 / ЗАКАЗАТЬ ПРОЕКТ</span><span class="order-symbol" aria-hidden="true">↗</span></div>
+        <div class="order-body"><div><h2 id="order-title">Есть идея<br>для проекта?</h2><p>Опиши задачу: что нужно сделать, кому это поможет и какие функции важны. Скажу цену и сроки до начала работы.</p></div><div class="order-action"><div class="price">от 300 ₽</div><span class="price-label">Боты на заказ · цена зависит от задачи</span><a class="button button-light" href="https://t.me/Suppor712" target="_blank" rel="noopener noreferrer">Написать мне <span aria-hidden="true">↗</span></a><p>Напиши в Telegram на <strong>@Suppor712</strong> и расскажи о своей идее.</p></div></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>Портфолио · 2026</span><div><a href="https://t.me/Suppor712" target="_blank" rel="noopener noreferrer">Связаться ↗</a><a href="https://t.me/GigaPulsePlayBot" target="_blank" rel="noopener noreferrer">ГигаПульс ↗</a><a href="https://t.me/+1a_-_GJmW9M1Zjc6" target="_blank" rel="noopener noreferrer">Канал проекта ↗</a></div></footer>
+  </div>
+  <script src="./stars.js" defer></script>
+</body>
+</html>

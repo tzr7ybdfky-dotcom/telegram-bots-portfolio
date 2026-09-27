@@ -1,0 +1,24 @@
+.services{padding:92px 0 100px;border-top:1px solid #30333e}
+.services-heading{display:flex;justify-content:space-between;align-items:end;gap:32px;margin:15px 0 36px}
+.services-heading h2,.stack h2{font-size:clamp(38px,4vw,58px);line-height:1.08;margin:0;letter-spacing:-.055em}
+.services-heading p{margin:0 0 5px;max-width:420px;color:#b5b8c4;font-size:16px;line-height:1.7}
+.service-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.service-card{min-height:205px;padding:27px 30px;background:#1b1e27;border:1px solid #303440;border-radius:18px;transition:border-color .2s,transform .2s}
+.service-card:hover{border-color:#7494f5;transform:translateY(-2px)}
+.service-card>span{color:#8eaaff;font-size:12px;letter-spacing:.16em;font-weight:800}
+.service-card h3{font-size:22px;letter-spacing:-.035em;margin:25px 0 10px}
+.service-card p{font-size:15px;line-height:1.7;color:#b5b8c4;max-width:475px;margin:0}
+.existing-project{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:28px 0 0}
+.existing-project p{font-size:15px;line-height:1.7;color:#b5b8c4;max-width:740px;margin:0}
+.existing-project strong{color:#f4f4f0}
+.existing-project a{flex:none;color:#d7e2ff;font-size:14px;font-weight:800;border-bottom:1px solid #7797fa;padding-bottom:8px}
+.existing-project a:hover{color:#fff}
+.existing-project a span{margin-left:8px}
+.stack{padding:80px 0 105px;border-top:1px solid #30333e}
+.stack h2{margin:17px 0 36px}
+.stack-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.stack-grid>div{padding:26px 26px 30px;border-top:2px solid #6587f5;background:#191c24;min-height:172px}
+.stack-grid h3{font-size:16px;margin:0 0 14px}
+.stack-grid p{font-size:15px;line-height:1.75;color:#b5b8c4;margin:0}
+@media(max-width:760px){.services{padding:76px 0}.services-heading{display:block;margin:20px 0 28px}.services-heading p{margin:17px 0 0}.service-grid,.stack-grid{grid-template-columns:1fr}.service-card{min-height:175px;padding:24px}.service-card h3{margin-top:17px}.existing-project{display:block}.existing-project a{display:inline-block;margin-top:20px}.stack{padding:72px 0 82px}.stack h2{margin-bottom:30px}.stack-grid>div{min-height:0}}
+@media(prefers-reduced-motion:reduce){.service-card{transition:none}}
